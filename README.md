@@ -1,4 +1,4 @@
-# Travel-Insurance-Claim-Prediction
+# Travel Insurance Claim Prediction
 **Ikhsan Herdi Fajriyanto**
 
 # Introduction
