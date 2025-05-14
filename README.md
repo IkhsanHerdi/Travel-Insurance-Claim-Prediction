@@ -42,7 +42,7 @@ Konsekuensi: penurunan kualitas pelayanan asuransi bagi pelaku perjalanan karena
 
 Berdasarkan konsekuensinya, maka sebisa mungkin yang akan kita lakukan adalah membuat model yang dapat mengurangi beban dan kinerja perusahaan, tetapi tanpa menurunkan kualitas pelayanan asuransi bagi para pelaku perjalanan. Jadi kita ingin sebanyak mungkin prediksi kelas positif yang benar, dengan sesedikit mungkin prediksi false positive.
 
-# Data Undetstanding
+# Data Understanding
 
 - `Agency`: Name of agency.
 - `Agency Type`: Type of travel insurance agencies.
