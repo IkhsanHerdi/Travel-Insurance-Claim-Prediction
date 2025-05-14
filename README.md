@@ -12,7 +12,7 @@ mereka saat mereka melakukan perjalanan, namun tidak semua klaim dapat di terima
 (mengalami resiko yang akan dipertanggung oleh perusahaan) dan mana yang ditolak. Karena dalam hal ini perusahaan juga akan terbantu dalam hal mengurangi beban, kinerja dan waktu serta kualitas pelayanan penyedia asuransi perjalanan kepada para pelaku perjalanan.
 
 **Target:**
-`0` : **Klaim ditolak/Tidak Menerima Klaim** 
+`0` : **Klaim ditolak/Tidak Menerima Klaim** <br>
 `1` : **Klaim diterima/Berhak Menerima Klaim**
 
 # Problem Statement
