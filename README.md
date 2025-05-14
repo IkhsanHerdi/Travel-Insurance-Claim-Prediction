@@ -11,7 +11,7 @@ Pada studi kasus ini terdapat perusahaan asuransi yang menawarkan jasa asuransi 
 mereka saat mereka melakukan perjalanan, namun tidak semua klaim dapat di terima. Maka dari itu perusahaan ingin mengetahui informasi siapa saja customer yang berhak menerima klaim
 (mengalami resiko yang akan dipertanggung oleh perusahaan) dan mana yang ditolak. Karena dalam hal ini perusahaan juga akan terbantu dalam hal mengurangi beban, kinerja dan waktu serta kualitas pelayanan penyedia asuransi perjalanan kepada para pelaku perjalanan.
 
-**Target:**
+**Target:**<br>
 `0` : **Klaim ditolak/Tidak Menerima Klaim** <br>
 `1` : **Klaim diterima/Berhak Menerima Klaim**
 
