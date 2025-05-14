@@ -55,3 +55,22 @@ Berdasarkan konsekuensinya, maka sebisa mungkin yang akan kita lakukan adalah me
 - `Commission (in value)`: Commission received for travel insurance agency.
 - `Age`: Age of insured.
 - `Claim`: Claim status.
+
+# Conclusion
+
+
+- Model dapat mengurangi 52% calon pelaku perjalanan yang tidak berhak untuk menerima Claim, dan dapat mendapatkan 91% calon pelaku perjalanan yang berhak untuk menerima Claim.
+
+- Ketepatan prediksi yang berhak menerima Claim hanya 7%. Maka 48% dari keseluruhan calon pelaku perjalanan tidak menerima Claim namun sudah mengajukan Claim.
+
+- Algoritma dan model Machine Learning belum maksimal. Sebaiknya menggunakan algoritma dan model yang lebih bervariasi.
+
+- Model hanya bisa digunakan jika tidak terdapat terlalu banyak nilai kuantitatif yang melebihi Outliers atau batasan yang diterapkan oleh perusahaan. (batasan usia dan durasi perjalanan)
+
+# Recommendation/Improvement
+
+- Mewajibkan seluruh calon pelaku perjalanan yang mengajukan Claim asuransi untuk mengisi data secara lengkap, termasuk kolom Gender. Kita seharusnya bisa mengisi data kosong dengan variabel Gender acak, namun bisa membuang waktu dan kinerja perusahaan untuk menganalisis puluhan ribu baris data termasuk sekitar 30.000 data yang memiliki nilai kosong, dan juga bisa menaikkan jumlah calon pelaku perjalanan yang tidak berhak menerima Claim dan akibatnya menyia-nyiakan kinerja perusahaan memberikan Claim untuk asuransi namun tidak diterima oleh pelaku perjalanan.
+- Menambahkan fitur dan kolom baru yang berhubungan dengan pengajuan Claim asuransi seperti nama calon pelaku perjalanan, tanggal pengajuan asuransi, harga, dan syarat dan ketentuan (Terms and Conditions).
+- Melakukan pembebanan berlebih untuk fitur kuantitatif seperti durasi perjalanan, umur calon pelaku perjalanan, dan komisi.
+- Feature Importance harus difokuskan kepada fitur kuantitatif, bukan fitur kualitatif.
+- Mencoba menggunakan algoritma, model dan metrik Machine Learning yang lain, mencoba kembali Hyperparameter Turning, dan menggunakan teknik Resampler yang berbeda.
