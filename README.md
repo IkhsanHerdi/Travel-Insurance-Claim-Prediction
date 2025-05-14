@@ -74,3 +74,7 @@ Berdasarkan konsekuensinya, maka sebisa mungkin yang akan kita lakukan adalah me
 - Melakukan pembebanan berlebih untuk fitur kuantitatif seperti durasi perjalanan, umur calon pelaku perjalanan, dan komisi.
 - Feature Importance harus difokuskan kepada fitur kuantitatif, bukan fitur kualitatif.
 - Mencoba menggunakan algoritma, model dan metrik Machine Learning yang lain, mencoba kembali Hyperparameter Turning, dan menggunakan teknik Resampler yang berbeda.
+
+# Streamlit App
+
+Pada aplikasi streamlit dapat membantu perusahaan untuk melalukan prediksi apakah Claim diterima atau ditolak
